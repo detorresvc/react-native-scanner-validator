@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="wUD-JO-TYK">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="GJJ-km-L1P">
+                    <rect key="frame" x="114" y="205" width="146" height="176"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wUD-JO-TYK" secondAttribute="bottom" id="6Bt-yB-gue"/>
+                <constraint firstAttribute="trailing" secondItem="wUD-JO-TYK" secondAttribute="trailing" id="8xU-Gw-OEe"/>
+                <constraint firstItem="GJJ-km-L1P" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bxG-Nw-ZX5"/>
+                <constraint firstItem="wUD-JO-TYK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="prl-9n-bEA"/>
+                <constraint firstItem="wUD-JO-TYK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wny-0A-CKm"/>
+                <constraint firstItem="GJJ-km-L1P" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yuL-YB-Vsq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <point key="canvasLocation" x="545.5" y="452.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Image" width="1280" height="2272"/>
+        <image name="logo" width="320" height="426"/>
+    </resources>
+</document>
